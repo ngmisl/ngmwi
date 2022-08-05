@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="TemplateData/style.css" />
+    <link rel="shortcut icon" href="TemplateData/favicon.ico" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+    </style>
+    <title>Mint World Coming Soon!</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><button onClick="addNetwork()">Add Mumbai Network</button></li>
+        <li><button onclick="claimFaucet()">Free Testnet Matic</button></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h2>Mint World Testnet Edition</h2>
+    </div>
+    <div id="unity-container" class="unity-desktop">
+      <canvas id="unity-canvas" width="960" height="600"></canvas>
+      <div id="unity-loading-bar">
+        <div id="unity-logo"></div>
+        <div id="unity-progress-bar-empty">
+          <div id="unity-progress-bar-full"></div>
+        </div>
+      </div>
+      <div id="unity-footer">
+        <div id="unity-webgl-logo"></div>
+        <div
+          id="unity-fullscreen-button"
+          img="/TemplateData/fullscreen-button.png"
+        ></div>
+        <div id="unity-build-title">MintWorld Testnet</div>
+      </div>
+    </div>
+    <footer>
+      <p>
+        <a href="https://twitter.com/MintWorldGG" target="_blank">Twitter</a>
+      </p>
+    </footer>
+  </body>
+  <script src="web3/index.js"></script>
+  <script src="unity.js"></script>
+  <script src="mumbai.js"></script>
+</html>
