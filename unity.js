@@ -32,11 +32,11 @@ function unityShowBanner(msg, type) {
 }
 
 var buildUrl = "Build";
-var loaderUrl = buildUrl + "/Test24.loader.js";
+var loaderUrl = buildUrl + "/Test25.loader.js";
 var config = {
-  dataUrl: buildUrl + "/Test24.data",
-  frameworkUrl: buildUrl + "/Test24.framework.js",
-  codeUrl: buildUrl + "/Test24.wasm",
+  dataUrl: buildUrl + "/Test25.data",
+  frameworkUrl: buildUrl + "/Test25.framework.js",
+  codeUrl: buildUrl + "/Test25.wasm",
   streamingAssetsUrl: "StreamingAssets",
   companyName: "DefaultCompany",
   productName: "Mintworld v2",
